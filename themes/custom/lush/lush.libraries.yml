@@ -1,0 +1,23 @@
+global-lib:
+  css:
+    theme:
+      stylesheets/lush.style.css: {}
+      stylesheets/lush.style.mobile.under1200.css: {}
+
+  js:
+    js/lush.script.js: {}
+    
+    
+bootstrap:
+  css:
+    theme:
+      stylesheets/bootstrap.min.css: {}
+      
+  js:
+    js/bootstrap.min.js: {}
+ 
+   
+
+  dependencies:
+    - core/drupal.ajax
+    - core/jquery

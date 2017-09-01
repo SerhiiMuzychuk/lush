@@ -1,0 +1,50 @@
+<?php
+
+use Drupal\Component\Utility\SafeMarkup;
+use Drupal\Core\Url;
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Form\FormBase;
+use Drupal\Component\Utility\UrlHelper;
+
+use Drupal\Core\Entity\Display\EntityViewDisplayInterface;
+use Drupal\Core\Entity\EntityInterface;
+use Drupal\node\Entity\Node;
+
+function common_whooosh_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  if ($form_id == 'views_exposed_form') { 
+    $form['search_api_fulltext']['#attributes']['placeholder'] = t('Search');
+  }
+}
+
+function common_whooosh_theme($existing, $type, $theme, $path) {
+  if (!\Drupal::currentUser()->id()) {
+    $form = Drupal::formBuilder()->getForm(Drupal\user\Form\UserLoginForm::class) ; 
+    $render = Drupal::service('renderer');
+    $variables['login_form'] = $render->renderPlain($form);
+    
+  }
+  return array(
+    'top_header_block' => array(
+      'variables' => array(
+        'items' => null,
+        
+                ),
+      'template' => 'top_header_block',
+
+    ),
+    
+    
+    'footer_block' => array(
+      'variables' => array('footer_items' => null),
+      'template' => 'footer_block',      
+    ),
+    
+    'dashboard_slider_block' => array(
+      'variables' => array('items' => null),
+      'template' => 'dashboard_slider_block',
+    ),
+    
+    
+  );
+}
+

@@ -1,0 +1,16 @@
+name: Lush
+description: 'Custom theme'
+core: 8.x
+type: theme
+
+libraries:
+  - lush/global-lib
+  - lush/bootstrap
+  - core/drupal.ajax
+
+regions:
+  header: 'Header'
+  help: 'Help'
+  highlighted: 'Highlighted'
+  content: 'Content'
+  footer: 'Footer'

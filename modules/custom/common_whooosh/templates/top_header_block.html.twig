@@ -1,0 +1,118 @@
+{% set site_name = 'Lush' %}
+
+{# Header block #}
+
+<header class="header">
+  <div class="header-sub-menus above">
+    <div class="header-sub-menu header-sub-menu-shelf shelf-not-loaded closed" style="overflow: hidden; display: none; max-height: 774px;">
+    </div>
+  </div>
+  <div class="header-logo-mobile hidden-desktop">
+    <a href="/" title="Lush Fresh Handmade Cosmetics"></a>
+  </div>
+
+  <div class="header-contents-wrapper">
+    <div class="header-social">
+      <a href="#" class="slideout-button slideout-button-processed" data-slideout-reference="social-slideout">Social</a>
+    </div>
+
+    <div class="header-contents">
+       <div class="container header-first-container">
+          <div class="container-padding header-first-container-padding">
+            <div class="header-logo-desktop hidden-mobile"> 
+              <a href="/" title="Lush Fresh Handmade Cosmetics"></a>
+            </div>
+            <div class="header-account hidden-mobile">
+              <a href="#" class="header-account-icon-only without-image break-12-hidden break-16-hidden break-20-hidden no-link submenuclick-processed" data-header-sub-menu="header-sub-menu-account"></a>
+           
+              <div class="header-account-links">
+                <span class="header-account-links-login">
+                  <a href="/user/login?destination=shops">Log in</a> 
+                </span>
+                <span class="header-account-links-pipe"></span>
+                <span class="header-account-links-join">
+                  <a href="/user/register?destination=shops">Join</a> 
+                </span>
+              </div>
+            </div>
+            <div class="header-search">
+              <a href="#" class="no-link submenuclick-processed" data-header-sub-menu="header-sub-menu-search"></a>
+            </div>
+            <div class="header-products">
+              <a href="#" class="hidden-desktop no-link submenuclick-processed" data-header-sub-menu="header-sub-menu-products"></a>
+              <ul class="header-products-contents hidden-mobile">
+                <li class="first leaf has-children menu-mlid-64996"><a  accesskey="2" class="no-link products submenuclick-processed" data-header-sub-menu="header-sub-menu-products">Products</a></li>
+                <li class="leaf menu-mlid-122256"><a href="#">Shops</a></li>
+                <li class="last leaf menu-mlid-64991"><a href="#">Kitchen</a></li>
+              </ul>
+            </div>
+          </div>
+       </div>
+    </div>
+    <div class="header-cart">
+      <a href="#" class="slideout-button slideout-button-processed" data-slideout-reference="cart-slideout">Basket</a>
+    </div> 
+  </div>
+  <div class="header-sub-menus">
+    <div class="header-sub-menu header-sub-menu-products">
+      <div class="container">
+        <div class="container-padding">
+          <ul class="sub-menu-mobile">
+            <li class="first expanded active menu-mlid-64996 products no-link">
+              <p class="size-7 header-menu-title toggle-sub-menu hidden-desktop">Products</p>
+            </li>
+            <li class="leaf menu-mlid-122256">
+              <p class="size-7 header-menu-title hidden-desktop">Shops</p>
+            </li>
+            <li class="last leaf menu-mlid-64991 kitchen no-link">
+              <p class="size-7 header-menu-title hidden-desktop">Kitchen</p>
+            </li>
+
+            <li class="hidden-desktop header-sub-menu-products-account login ">
+              <div class="header-account-links">
+                <span class="header-account-links-login">
+                  <a href="/user/login?destination=">Log in</a> 
+                </span>
+                <span class="header-account-links-pipe"></span>
+                <span class="header-account-links-join">
+                  <a href="/user/register?destination=">Join</a> 
+                </span>
+              </div>
+            </li>
+
+          {{ items.product }}
+        </div>
+      </div>
+    </div>
+    <div class="header-sub-menu header-sub-menu-account logged-in" style="display: block;">
+      <div class="container">
+        <div class="container-padding">
+        <div class="header-sub-menu-account-hello break-4-hidden break-2-hidden break-12-hidden break-16-hidden break-20-hidden"></div>
+          <ul class="inline"><li class="first leaf"><a href="/my-account">My account</a></li>
+            <li class="leaf"><a href="/my-account/order-history">Order history</a></li>
+            <li class="leaf"><a href="/my-account/wishlist">Wishlist</a></li>
+            <li class="last leaf"><a href="/user/logout">Log out</a></li>
+          </ul> 
+        </div>
+      </div>
+    </div>
+    <div class="header-sub-menu header-sub-menu-search">
+      <div class="container">
+        <div class="container-padding">
+          <div class="search-wrapper-rel">
+            <span class="search-icon hidden-mobile" style="left: 0px; opacity: 1;"></span>
+            {{ items.boards }}
+            <span class="size-9 search-close-wrapper"><a href="#" class="search-close">Close</a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+
+
+</header>
+
+ {# ./Header block #}

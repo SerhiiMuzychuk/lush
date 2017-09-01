@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-2 col-xs-12">
+      <a href="{{ url('<front>') }}" class="navbar-brand">
+        <img src="{{ file_url(directory) }}/images/logo-dark.png" title="Dashboard"/>
+      </a>
+    </div>
+    <div class="col-md-8 col-xs-12 footer-menu-navigation">
+      <ul class="nav navbar-nav footer-navigation">
+        <li>
+          <a href="/contact-us">Contact</a>
+        </li>
+        <li>
+          <a href="/terms">Terms</a>
+        </li>
+        <li>
+          <a href="/privat-policy">Privacy policy</a>
+        </li>
+        <li>
+          <a href="/imprint">Imprint</a>
+        </li>
+      </ul>
+      
+    </div>
+    <div class="col-md-2 col-xs-12">
+      &copy;{{ "now"|date("Y") }} Make Mika UG (haftungsbeschränkt)
+    </div>
+  </div>
+</div>

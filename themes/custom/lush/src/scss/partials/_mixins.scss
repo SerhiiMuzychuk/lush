@@ -1,0 +1,47 @@
+@mixin linkBtn($bg-color, $color: black) {
+  @include linkBtnHover($bg-color, $color);
+  
+  background-color: $bg-color;
+  border: 1px solid $color;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  color: $color;
+  font-size: 15px;
+  padding: 16px 40px;
+}
+
+@mixin linkBtnHover($bg-color, $color) {
+  background-color: $bg-color;
+  border: 1px solid $color;
+  color: $color;
+  text-decoration: none;
+}
+
+@mixin addImg($el, $imgs_list, $size, $top) {
+  @each $n, $img_name in $imgs_list {
+    .#{$el}:nth-child(#{$n}) {
+      .option::before{
+        background: url('../images/#{$img_name}.png') center/contain no-repeat;
+        content: '';
+        display: block;
+        height: $size;
+        left: 0;
+        margin: 0 auto;
+        position: absolute;
+        right: 0;
+        top: $top;
+        width: $size;
+        z-index: 2;
+      }
+    }
+  }
+}
+
+@mixin inputBackground($file_name, $position, $size) {
+  background-image: url("../images/#{$file_name}");
+  background-position: $position;
+  background-repeat: no-repeat;
+  -webkit-background-size: $size;
+  background-size: $size;
+}
