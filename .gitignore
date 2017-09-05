@@ -1,0 +1,14 @@
+core/
+modules/contrib
+libraries/
+profiles/
+sites/*/settings*.php
+sites/*/services*.yml
+sites/*/files
+sites/*/private
+themes/*/*/node_modules
+vendor/
+.idea/
+nbproject/
+/nbproject/private/
+store/

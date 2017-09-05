@@ -1,4 +1,18 @@
 @media (min-width: 1400px) {
+	body.browse .container.detail .break-16-grid-6 {
+		width: 36.35383%;
+    float: left;
+    margin-right: 1.83387%;
+	}
+
+	body.browse .container .break-20-grid-7 {
+		padding-left: 0px;
+    padding-right: 0px;
+	}
+
+	body.browse .container.detail .container-padding {
+		padding: 0 2.8%;
+	}
 
 	.hero-center {
 	  height: 660px;	 
@@ -81,6 +95,36 @@
 }
 
 @media (max-width: 1199px) and (min-width: 1000px) {
+	body .container .break-12-grid-5 {
+		width: 40.42553%;
+    float: left;
+    margin-right: 2.12766%;
+	}
+
+	body .container .break-12-grid-3 {
+		width: 23.40426%;
+    float: left;
+    margin-right: 2.12766%;
+	}	
+
+	body .container .break-12-grid-3 {
+		width: 23.40426%;
+    float: left;
+    margin-right: 2.12766%;
+	}
+
+	body .container .break-12-omega {
+		float: right;
+    margin-right: 0;
+	}
+
+	body .container .break-all-half, body .container .break-12-grid-6 {
+		width: 48.93617%;
+	}
+
+	body .container .container-padding {
+		padding: 0 3%;
+	}
 
 	.hero-center {
 	  height: 460px;	 
@@ -163,6 +207,16 @@
 
 
 @media (max-width: 1399px) and (min-width: 1200px) {
+
+	body.browse .container .break-16-grid-6 {
+		width: 36.35383%;
+    float: left;
+    margin-right: 1.83387%;
+	}
+
+	body.browse .container .container-padding {
+		padding: 0 2.8%;
+	}
 
 	.hero-center {
 	  height: 500px;	 
@@ -252,6 +306,10 @@
     background-size: 160px;
     border-bottom: 1px solid #333333;
     display: block !important;
+	}
+
+	body .container .container-padding {
+		padding: 0 3.1%;
 	}
 
 	header.header .header-logo-mobile a {
@@ -643,10 +701,15 @@
 	  font-weight: bold;
 	}
 
+/*	body .container .break-all-quarter, body .container .break-all-half, body .container .break-2-grid-1 {
+		width: 48.66596%;
+    float: left;
+    margin-right: 2.66809%;
+	}
 
+	body .container .break-2-omega {
 
-
-
+	}*/
 
 
 

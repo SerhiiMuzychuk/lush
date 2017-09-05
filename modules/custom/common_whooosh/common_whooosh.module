@@ -35,13 +35,20 @@ function common_whooosh_theme($existing, $type, $theme, $path) {
     
     
     'footer_block' => array(
-      'variables' => array('footer_items' => null),
+      'variables' => array('items' => null),
       'template' => 'footer_block',      
     ),
     
     'dashboard_slider_block' => array(
       'variables' => array('items' => null),
       'template' => 'dashboard_slider_block',
+    ),
+
+    'hslider_block' => array(
+      'variables' => array(
+        'items' => null,
+      ),
+      'template' => 'hslider_block',
     ),
     
     

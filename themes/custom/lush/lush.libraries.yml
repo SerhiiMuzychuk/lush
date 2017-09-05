@@ -3,6 +3,8 @@ global-lib:
     theme:
       stylesheets/lush.style.css: {}
       stylesheets/lush.style.mobile.under1200.css: {}
+      stylesheets/lush.footer.css: {}
+      stylesheets/lush.aside.social.css: {}
 
   js:
     js/lush.script.js: {}

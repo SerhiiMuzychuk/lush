@@ -1,29 +1,113 @@
-<div class="container">
-  <div class="row">
-    <div class="col-md-2 col-xs-12">
-      <a href="{{ url('<front>') }}" class="navbar-brand">
-        <img src="{{ file_url(directory) }}/images/logo-dark.png" title="Dashboard"/>
-      </a>
+<footer class="footer">
+<div class="objects-footer-object">
+  <div class="swatch-black5">
+    <div class="container objects-footer-icons">
+      <div class="container-padding">
+        <ul class="inline footer-icons-svg clearfix">
+          <li class="first">
+            <span class="footer-icon icon-1v" title="100% Vegetarian"></span>
+          </li>
+          <li>
+            <span class="footer-icon icon-eb" title="Ethical Buying"></span>
+          </li>
+          <li>
+            <span class="footer-icon icon-fat" title="Fighting Animal Testing"></span>
+          </li>
+          <li>
+            <span class="footer-icon icon-fco" title="Freshest Cosmetics Online"></span>
+          </li>
+          <li>
+            <span class="footer-icon icon-h" title="Handmade"></span>
+          </li>
+          <li class="last">
+            <span class="footer-icon icon-n" title="Naked Packaging"></span>
+          </li>
+        </ul>
+      </div>
+    </div>   
+  </div>
+  <div class="swatch-black">
+    <div class="container detail swatch-black objects-footer-links"> 
+      <div class="container-padding"> 
+        <div class="objects-footer-links-top objects-footer-links-top-checkout clearfix">
+          <div class="break-20-grid-5 break-16-grid-4 break-12-grid-3 break-8-grid-2 break-4-grid-2 break-2-grid-1">
+            <h5 class="size-8 colour-white bold">Customer Care</h5>
+             {{ items.care }}  
+          </div>
+          <div class="break-20-grid-5 break-16-grid-4 break-12-grid-3 break-8-grid-2 break-4-grid-2 break-4-omega break-2-grid-1 break-2-omega">
+            <h5 class="size-8 colour-white bold">Helpful information</h5>
+            {{ items.helpful }}
+          </div>
+          <div class="object-footer-paysecurely break-20-grid-10 break-20-omega break-16-grid-8 break-16-omega break-12-grid-6 break-12-omega break-8-grid-4 break-8-omega break-4-grid-4 break-2-grid-2">
+            <h5 class="size-8 bold colour-white clearfix">Pay securely with...</h5>
+            <ul class="links--inline margin-top-space20 payments clearfix">
+              <li class="icon white icon-payment icon-master first">
+                <a href="http://www.mastercard.com">Mastercard</a>
+              </li>
+              <li class="icon white icon-payment icon-paypal">
+                <a href="https://www.paypal.com">PayPal</a>
+              </li>
+              <li class="icon white icon-payment icon-visa">
+                <a href="http://www.visa.com">Visa</a>
+              </li>
+              <li class="icon white icon-payment icon-amex">
+                <a href="https://www.americanexpress.com">Amex</a>
+              </li>
+              <li class="icon white icon-payment icon-bitpay last">
+                <a href="https://bitpay.com">Bitpay</a>
+              </li>
+            </ul>
+          </div> 
+          <div class="objects-footer-links-bottom clearfix">
+            <div class="break-20-grid-7 break-16-grid-6 break-12-grid-5 break-8-grid-3 break-4-grid-4 break-2-grid-2">
+              <h6 class="size-8 colour-white bold">Join the conversation</h6>
+              <ul>
+                <li class="icon icon-social follow-link-wrapper-facebook">
+                  <a href="https://www.facebook.com/lush" class="aicon icon-facebook follow-link-site" title="Follow Lush Fresh Handmade Cosmetics UK on Facebook" target="_blank">Facebook</a>
+                </li>
+                <li class="icon icon-social follow-link-wrapper-googleplus">
+                  <a href="https://plus.google.com/+Lush" class="aicon icon-googleplus follow-link-site" title="Follow Lush Fresh Handmade Cosmetics UK on Google+" target="_blank">Google+</a>
+                </li>
+                <li class="icon icon-social follow-link-wrapper-twitter">
+                  <a href="http://www.twitter.com/lushltd" class="aicon icon-twitter follow-link-site" title="Follow Lush Fresh Handmade Cosmetics UK on Twitter" target="_blank">Twitter</a>
+                </li>
+                <li class="icon icon-social follow-link-wrapper-youtube">
+                  <a href="http://www.youtube.com/lushcosmetics" class="aicon icon-youtube follow-link-site" title="Follow Lush Fresh Handmade Cosmetics UK on YouTube" target="_blank">YouTube</a>
+                </li>
+                <li class="icon icon-social follow-link-wrapper-instagram">
+                  <a href="http://instagram.com/lush" class="aicon icon-instagram follow-link-site" title="Follow Lush Fresh Handmade Cosmetics UK on Instagram" target="_blank">Instagram</a>
+                </li>
+                <li class="icon icon-social follow-link-wrapper-pinterest">
+                  <a href="http://www.pinterest.com/lushlimited" class="aicon icon-pinterest follow-link-site" title="Follow Lush Fresh Handmade Cosmetics UK on Pinterest" target="_blank">Pinterest</a>
+                </li>
+                <li class="icon icon-social follow-link-wrapper-tumblr">
+                  <a href="http://lushltd.tumblr.com/" class="aicon icon-tumblr follow-link-site" title="Follow Lush Fresh Handmade Cosmetics UK on Tumblr" target="_blank">Tumblr</a>
+                </li>
+                <li class="icon icon-social follow-link-wrapper-vine">
+                  <a href="https://vine.co/Lush" class="aicon icon-vine follow-link-site" title="Follow Lush Fresh Handmade Cosmetics UK on Vine" target="_blank">Vine</a>
+                </li>    
+              </ul>
+            </div>
+            <div class="object-footer-newsletter break-20-grid-13 break-20-omega break-16-grid-10 break-16-omega break-12-grid-7 break-12-omega break-8-grid-5 break-8-omega break-4-grid-4 break-2-grid-2">
+              <h6 class="size-8 colour-white bold">Newsletter from Lush straight to your inbox</h6>
+              <div id="newsletter-signup">
+                
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
     </div>
-    <div class="col-md-8 col-xs-12 footer-menu-navigation">
-      <ul class="nav navbar-nav footer-navigation">
-        <li>
-          <a href="/contact-us">Contact</a>
-        </li>
-        <li>
-          <a href="/terms">Terms</a>
-        </li>
-        <li>
-          <a href="/privat-policy">Privacy policy</a>
-        </li>
-        <li>
-          <a href="/imprint">Imprint</a>
-        </li>
-      </ul>
-      
-    </div>
-    <div class="col-md-2 col-xs-12">
-      &copy;{{ "now"|date("Y") }} Make Mika UG (haftungsbeschränkt)
+  </div>
+  <div class="container">
+    <div class="container-padding">
+      <div class="object-footer-copyrights">
+        <p class="size-10">
+Copyright © 1995-2017 Lush Retail Ltd. <a href="/help/policies">Privacy &amp; Terms</a>
+</p>
+      </div>
     </div>
   </div>
 </div>
+
+</footer>

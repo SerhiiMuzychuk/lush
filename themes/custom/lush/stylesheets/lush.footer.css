@@ -1,0 +1,452 @@
+footer .footer {
+	margin-top: 50px;
+  clear: both;
+  position: relative;	
+}
+
+.swatch-black5 {
+	background: #f2f2f2;
+}
+
+.container .objects-footer-icons {
+	text-align: center;
+}
+
+body .container .container-padding {
+	padding: 0 3%;
+}
+
+.container {
+/*	width: 100% !important;
+*/}
+
+ul.inline {
+	list-style: none;
+}
+
+.object-review-product-form .field-name-field-product-rating, .clearfix, .page-checkout div[id*='edit-commerce-shipping-shipping-service'], .customer_profile_eu_vat_rc {
+	display: block;
+	width: 100%
+}
+
+.clearfix {
+	float: left;
+}
+
+.container .footer-icons-svg {
+	margin: 15px auto;
+}
+
+.objects-footer-object .container .footer-icons-svg li {
+	width: 16.66%;
+	float: left;
+}
+
+ul.inline li {
+	display: inline-block;
+	list-style: none;
+}
+
+.objects-footer-object .container .footer-icons-svg li span.icon-1v {
+	width: 120px;
+	background-position: -578px top !important;
+	background: url('/themes/custom/lush/images/footer-icon-sprite.svg') no-repeat;
+	height: 137px;
+	display: inline-block;
+}
+
+.objects-footer-object .container .footer-icons-svg li span.icon-eb {
+	width: 145px;
+	background-position: -368px top !important;
+	background: url('/themes/custom/lush/images/footer-icon-sprite.svg') no-repeat;
+	height: 137px;
+	display: inline-block;
+}
+
+.objects-footer-object .container .footer-icons-svg li span.icon-fat {
+	width: 65px;
+	background-position: -13px top !important;
+	background: url('/themes/custom/lush/images/footer-icon-sprite.svg') no-repeat;
+	height: 137px;
+	display: inline-block;
+}
+
+.objects-footer-object .container .footer-icons-svg li span.icon-fco {
+	width: 135px;
+	background-position: -162px top !important;
+	background: url('/themes/custom/lush/images/footer-icon-sprite.svg') no-repeat;
+	height: 137px;
+	display: inline-block;
+}
+
+.objects-footer-object .container .footer-icons-svg li span.icon-h {
+	width: 97px;
+	background-position: -771px top !important;
+	background: url('/themes/custom/lush/images/footer-icon-sprite.svg') no-repeat;
+	height: 137px;
+	display: inline-block;
+}
+
+.objects-footer-object .container .footer-icons-svg li span.icon-n {
+	width: 120px;
+	background-position: -956px top !important;
+	background: url('/themes/custom/lush/images/footer-icon-sprite.svg') no-repeat;
+	height: 137px;
+	display: inline-block;
+}
+
+.objects-footer-object .container .footer-icons-svg li span.icon-1v {
+
+}
+
+.swatch-black {
+	background: black;
+}
+
+.objects-footer-object .container.object-footer-links {
+	padding-top: 40px;
+	padding-bottom: 0px;
+}
+
+section.layout-detail, section.layout-browse, .container.detail {
+	padding: 30px 0 0 0;
+	position: relative;
+}
+
+/*body .container {
+	margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 100%!important;
+}*/
+
+.objects-footer-object .object-footer-links-top.object-footer-links-top-checkout {
+	padding-bottom: 30px;
+}
+
+body .container .break-12-grid-3 {
+  width: 23.40426%;
+  float: left;
+  margin-right: 2.12766%;
+}
+
+.objects-footer-object .object-footer-links-bottom {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  border-top: 1px solid #333333;
+}
+
+h1.bold, h2.bold, h3.bold, h4.bold, h5.bold, h6.bold, .size-1.bold, .size-2.bold, .size-3.bold, .size-4.bold, .size-5.bold, .size-6.bold, .size-20.bold, .size-7.bold, .size-8.bold, .size-9.bold, .size-10.bold, p.bold {
+	font-family: helvetica-neue-LT-bold,"Helvetica Neue Light",Helvetica,Arial;
+}
+
+.colour-white {
+	color: white;
+}
+
+.size-8, .size-8 p {
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.objects-footer-object .object-footer-links-top ul {
+	margin-top: 20px;
+}
+
+ul {
+	list-style: none;
+}
+
+#block-customercare li {
+	margin-bottom: 5px;
+}
+
+#block-customercare li a {
+	border-bottom: 0px;
+	color: gray !important;
+	text-decoration: none !important;	
+}
+
+#block-customercare li a:hover {
+	color: white !important;
+	border-bottom: 1px solid !important;
+}
+
+#block-helpfulinformation ul {
+	margin-top: 20px;
+}
+
+#block-helpfulinformation ul li {
+	margin-bottom: 5px;
+}
+
+#block-helpfulinformation ul li a {
+	border-bottom: 0px;
+	color: gray !important;
+	filter: none;
+	text-decoration: none;
+}
+
+#block-helpfulinformation ul li a:hover {
+	color: white !important;
+	border-bottom: 1px solid !important;
+}	
+
+body .container .break-12-omega {
+	float: right;
+	margin-right: 0;
+	width: 48.93617%;
+}
+
+.objects-footer-object .object-footer-links-top ul {
+	margin-top: 20px;
+}
+
+.links--inline {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;	
+}
+
+.links--inline li {
+	float: left;
+}
+
+.white {
+	color: white;
+}
+
+.clearfix {
+	float: left;
+}
+
+.icon.icon-payment {
+  background: url('/themes/custom/lush/images/lush-sprite-master.svg') no-repeat;
+  text-indent: -999px;
+  overflow: hidden;
+  height: 24px;
+  width: 30px;
+  margin-right: 5px;
+}
+
+.icon.icon-payment.white.icon-master {
+	background-position: -244px -530px;
+	width: 35px;
+	margin-bottom: 15px; 
+}
+
+.icon.icon-payment a {
+	display: block;
+	height: 100%;
+}
+
+.icon.icon-payment.white.icon-paypal {
+  background-position: -300px -528px;
+  width: 65px;
+  margin-bottom: 15px;	
+}
+
+.icon.icon-payment.white.icon-visa {
+	background-position: -27px -528px;
+  width: 40px;
+  margin-bottom: 15px;	
+}
+
+.icon.icon-payment.white.icon-amex {
+  background-position: -385px -528px;
+  width: 45px;
+  margin-bottom: 15px;
+}
+
+.icon.icon-payment.white.icon-bitpay {
+	background: url('/themes/custom/lush/images/bitpay.png') no-repeat !important;
+  width: 50px;
+  margin-bottom: 15px;
+}
+
+.objects-footer-object .object-footer-links-bottom {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  border-top: 1px solid #333333;
+}
+
+body .container .break-12-grid-5 {
+  width: 40.42553%;
+  float: left;
+  margin-right: 2.12766%;
+}
+
+.objects-footer-object .object-footer-links-top ul {
+	margin-top: 20px;
+}
+
+.icon.icon-social {
+	height: 30px;
+	margin-right: 5px;
+	float: left;
+}
+
+.icon.icon-social .icon-facebook {
+	background-position: -5px -6px !important;
+  width: 20px;
+  height: 28px;
+  display: block;
+}
+
+.icon.icon-social .aicon {
+  background: url('/themes/custom/lush/images/footer-social-sprite.svg') no-repeat;
+  text-indent: -999px;
+  overflow: hidden;
+  border-bottom: 0;
+}
+
+.icon.icon-social .icon-googleplus {
+	background-position: -235px -6px;
+  width: 22px;
+  height: 28px;
+  display: block;
+}
+
+.icon.icon-social .icon-twitter {
+  background-position: -35px -6px;
+  width: 32px;
+  height: 28px;
+  display: block;
+}
+
+.icon.icon-social .icon-youtube {
+	background-position: -80px -6px;
+  width: 30px;
+  height: 28px;
+  display: block;
+}
+
+.icon.icon-social .icon-instagram {
+  background-position: -122px -6px;
+  width: 28px;
+  height: 28px;
+  display: block;
+}
+
+.icon.icon-social .icon-pinterest {
+  background-position: -162px -6px;
+  width: 26px;
+  height: 28px;
+  display: block;
+}
+
+.icon.icon-social .icon-tumblr {
+  background-position: -202px -6px;
+  width: 20px;
+  height: 28px;
+  display: block;
+}
+
+.icon.icon-social .icon-vine {
+  background-position: -264px -6px;
+  width: 26px;
+  height: 28px;
+  display: block
+}
+
+.links--inline li {
+	float: left;
+}
+
+.object-footer-copyrights {
+	width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  border-top: solid 1px #e3e3e3;
+}
+
+.size-10 {
+	font-size: 12px;
+	line-height: 16px;
+	color: #333333;
+	font-family: helvetica-neue-LT-reg,"Helvetica Neue Light",Helvetica,Arial;
+}
+
+.objects-footer-object .object-footer-copyrights a {
+  text-decoration: underline;
+  filter: none;
+  border-bottom: 0px;
+  color: black;
+  font-family: Arial !important;
+}
+
+.objects-footer-object .object-footer-copyrights a:hover {
+	background: black !important;
+	color: white !important;
+	text-decoration: none !important;
+}
+
+.objects-footer-links {
+	padding-bottom: 30px !important;
+}
+
+.objects-footer-links-bottom.clearfix {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  border-top: 1px solid #333333;
+}
+
+/*.icon.icon-social .aicon:hover {
+	background: url('/themes/custom/lush/images/footer-social-sprite.svg') no-repeat;
+}*/
+
+.icon.icon-social .icon-facebook:hover {
+	background-position: -5px -66px !important;
+}
+
+.icon.icon-social .icon-googleplus:hover {
+	background-position: -235px -66px;
+}
+
+.icon.icon-social .icon-twitter:hover {
+	background-position: -35px -66px;
+}
+
+.icon.icon-social .icon-youtube:hover {
+	background-position: -80px -66px;
+}
+
+.icon.icon-social .icon-instagram:hover {
+	background-position: -122px -66px;
+}
+
+.icon.icon-social .icon-pinterest:hover {
+	background-position: -162px -66px;
+}
+
+.icon.icon-social .icon-tumblr:hover {
+	background-position: -202px -66px;
+}
+
+.icon.icon-social .icon-vine:hover {
+  background-position: -264px -66px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
