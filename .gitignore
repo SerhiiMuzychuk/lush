@@ -12,3 +12,5 @@ vendor/
 nbproject/
 /nbproject/private/
 store/
+sites/default/files
+sites/default/settings.php
