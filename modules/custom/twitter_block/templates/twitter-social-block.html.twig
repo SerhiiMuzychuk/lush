@@ -1,0 +1,36 @@
+{% for twitter in tw %}
+  <div class="social-grid">
+    <div class="twitter-heder" style="border-bottom: solid gray 0.5px;">
+      <div class="logo-fb" style="display: inline-block;">
+        <img src="themes/custom/lush/images/lush_twitter.png">
+      </div>
+      {% if twitter.created_at %}
+        <div class="twitter-created-data" style="display: inline-block;">
+          {{ twitter.created_at }}
+        </div>
+      {% endif %}
+    </div>
+      <div class="twitter-middle">
+        <div class="middle-image" style="display: inline-block; float: left;">
+          <img src="themes/custom/lush/images/social_block_image.jpg">
+        </div>
+        <div class="twitter-middle-link" style="display: inline-block;">
+          <a href="https://twitter.com/LushLtd" style="font-weight: bold; color: black;">LUSH UK</a>
+        </div>  
+        <div class="twitter-link-dog">
+          <a href="https://twitter.com/LushLtd" style="font-weight: bold; color: black;">@LushLtd</a>
+        </div>
+       </div> 
+          {% if twitter.screen %}
+            <div class="twitter-name" style="padding-top: 10px;">
+              <a href="https://twitter.com/{{ twitter.screen }}">@{{ twitter.screen }}</a>
+            </div>
+          {% endif %}
+      </div> 
+    <div class="twitter-message">
+      {% if twitter.content %}
+        <p>{{ twitter.content|raw }}</p>
+      {% endif %}
+    </div> 
+  </div>
+{% endfor %}

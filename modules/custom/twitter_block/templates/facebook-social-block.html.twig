@@ -1,0 +1,53 @@
+{% for facebook_post in items %}
+{#{ kint(facebook_post) }#}
+  <div class="social-grid" style="width: 40%; display: inline-block;">
+    <div class="facebook-heder" style="border-bottom: solid gray 0.5px;">
+      <div class="logo-fb" style="display: inline-block;">
+        <img src="themes/custom/lush/images/lush_fb.png">
+      </div>
+      {% if facebook_post.created %}
+        <div class="fb-created-data" style="display: inline-block;">
+          <p> {{ facebook_post.created }} </p>
+        </div>
+    </div>
+      {% endif %}
+      <div class="facebook-middle">
+        <div class="middle-image" style="display: inline-block;">
+          <img src="themes/custom/lush/images/social_block_image.jpg">
+        </div>
+        <div class="facebook-middle-link" style="display: inline-block;">
+          <a href="https://www.facebook.com/lush/" style="font-weight: bold; color: black;">LUSH UK</a>
+        </div>
+      </div>
+    {% if facebook_post.message %}
+      <div class="fb-message">
+        <p> {{ facebook_post.message|raw }} </p>
+      </div>
+    {% endif %}
+  </div>
+{% endfor %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{#
+<div>
+{% for value in items %}
+{{ kint(value.0) }}
+{{ value.0 }}
+{{ items }}
+</div>
+{% endfor %}
+#}

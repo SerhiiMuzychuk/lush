@@ -49,9 +49,7 @@ function common_whooosh_theme($existing, $type, $theme, $path) {
         'items' => null,
       ),
       'template' => 'hslider_block',
-    ),
-    
-    
+    ),    
   );
 }
 

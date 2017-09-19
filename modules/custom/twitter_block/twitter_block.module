@@ -1,0 +1,60 @@
+<?php
+
+use Drupal\Component\Utility\SafeMarkup;
+use Drupal\Core\Url;
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Form\FormBase;
+use Drupal\Component\Utility\UrlHelper;
+use \Drupal\block\Entity\Block;
+use Drupal\Core\Entity\Display\EntityViewDisplayInterface;
+use Drupal\Core\Entity\EntityInterface;
+use Drupal\node\Entity\Node;
+
+function twitter_block_theme($existing, $type, $theme, $path) { 
+  return array(
+    'facebook_social_block' => array(
+      'variables' => array(
+        'items' => null,
+      ),
+      'template' => 'facebook-social-block',
+    ),
+    
+    'twitter_social_block' => array(
+      'variables' => array(
+        'tw' => null,
+      ),
+      'template' => 'twitter-social-block',  
+    ),
+
+    'simple_block_example' => array(
+      'variables' => array(
+        'items' => null,
+        ),
+      'template' => 'simple-block-example',
+    )
+  );
+}
+
+function twitter_block_preprocess_hslider_block(&$variables) {
+  $general = \Drupal\block\Entity\Block::load('simpleblockexample');
+  $general_content = \Drupal::entityTypeManager()
+    ->getViewBuilder('block')
+    ->view($general);
+   $variables['general'] = $general_content; 
+}
+
+
+function twitter_block_preprocess_simple_block_example(&$variables) {
+    $twitter = \Drupal\block\Entity\Block::load('twitterblock');
+  $twitter_content = \Drupal::entityTypeManager()
+    ->getViewBuilder('block')
+    ->view($twitter);
+    
+  $facebook = \Drupal\block\Entity\Block::load('facebookblock');
+  $facebook_content = \Drupal::entityTypeManager()
+    ->getViewBuilder('block')
+    ->view($facebook); 
+  $variables['blocktweet'] = $twitter_content;
+  $variables['blockface'] = $facebook_content; 
+}
+

@@ -9,6 +9,7 @@ use Drupal\image\Entity\ImageStyle;
 use Drupal\Core\core\modules\user\src\Form;
 use \Drupal\Core\Form\FormBase;
 use Drupal\block\Entity\Block;
+use Drupal\core\modules\block_content\src\Entity\BlockContent;
 
 /**
  * Provides header block
@@ -24,7 +25,14 @@ class HeaderBlock extends BlockBase {
    * {@inheritdoc}
    */
   public function build() {
-//    $node = \Drupal::entityTypeManager()->getStorage('node')->load(1);
+   /**
+
+  Other method to load and output Twitter block in hslider_block.html.twig template:  
+    // $bid = 'twitterblock';
+    // $block = Block::load($bid);
+    // $render = \Drupal::entityTypeManager()->getViewBuilder('block')->view($block);
+    // kint($render);
+   */
     $menu2 = Block::load('customercare');
     $prod_menu2 = \Drupal::entityTypeManager()->getViewBuilder('block')->view($menu2);
 
@@ -35,6 +43,7 @@ class HeaderBlock extends BlockBase {
       '#items' => array(
         'care' => $prod_menu2,
         'helpful' => $prod_menu3,
+        // 'twitter' => $render,
         )
 
     );
